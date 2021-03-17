@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 50px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 600px;
+}
+
+.wrapper__item {
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: 0 0 15px #000;
+          box-shadow: 0 0 15px #000;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper__item:last-child span {
+  text-shadow: 0 0 7px red;
+}
+
+.wrapper__item span {
+  font-size: 30px;
+  font-weight: 300;
+  text-shadow: 0 0 5px #000;
+}
+
+.wrapperInp {
+  border: 1px solid black;
+  padding: 30px 15px;
+  max-width: 600px;
+  height: 180px;
+  border-radius: 30px;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  font-family: serif;
+  text-shadow: 0 0 5px #000;
+}
+
+.wrapperInp__legend {
+  position: absolute;
+  text-transform: uppercase;
+  top: -15px;
+  text-align: center;
+  font-size: 22px;
+  background-color: #fff;
+  padding: 0 7px 0 7px;
+}
+
+.wrapperInp__btn {
+  display: block;
+  height: 40px;
+  position: absolute;
+  bottom: 15px;
+  padding: 7px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.wrapperInp__btn:hover {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-box-shadow: 0 0 15px red;
+          box-shadow: 0 0 15px red;
+  cursor: pointer;
+  text-shadow: 0 0 5px red;
+}
+
+.wrapperInp input {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+  position: absolute;
+  -webkit-box-shadow: 0 0 15px 5px #1a1616;
+          box-shadow: 0 0 15px 5px #1a1616;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #000;
+}
+/*# sourceMappingURL=style.css.map */
